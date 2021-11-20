@@ -1,27 +1,79 @@
-function mina() {
-    "use strict"
-    var price = document.getElementById("doller").value,
-        result = price * 8,
-        message = document.getElementById("message");
+// function mina() {
+//     "use strict"
+//     var price = document.getElementById("doller").value,
+//         result = price * 8,
+//         message = document.getElementById("message");
 
-    if (price === "") {
-        message.innerHTML = "this field cant't Be Embity";
-    }
-    else if (isNaN(price)) {
-        message.innerHTML = "Please type a number" ;
-    }
-    else if (price === "0") {
-        message.innerHTML = "The value cannot be calculated 0 "  ;
-    }
-    else if (price < 0 ) {
-        message.innerHTML = "Can not calculate"  + " " + price ;
-    }
-    else if (price > 499 ) {
-        message.innerHTML = "You cannot calculate a value greater than 499 " ;
-    }
-    else {
-        message.innerHTML = "Values" + " " + price + "  American dollar = " + " " + result + " Egyptian Pound ";
-    }
+//     if (price === "") {
+//         message.innerHTML = "this field cant't Be Embity";
+//     }
+//     else if (isNaN(price)) {
+//         message.innerHTML = "Please type a number" ;
+//     }
+//     else if (price === "0") {
+//         message.innerHTML = "The value cannot be calculated 0 "  ;
+//     }
+//     else if (price < 0 ) {
+//         message.innerHTML = "Can not calculate"  + " " + price ;
+//     }
+//     else if (price > 499 ) {
+//         message.innerHTML = "You cannot calculate a value greater than 499 " ;
+//     }
+//     else {
+//         message.innerHTML = "Values" + " " + price + "  American dollar = " + " " + result + " Egyptian Pound ";
+//     }
+
+// }
+
+
+
+
+
+
+
+
+
+
+ function mina() {
+   "use strict";
+   var x = document.getElementById("doller").value,
+     result = x * 15.71,
+     message = document.getElementById("message");
+
+
+  if (x === "") {
+    message.innerhtml = " this feild cat";
+  } else {
+    message.innerHTML =
+      "  قيمة " + x + "دولار اليوم = " + result + " جنيه مصري لاغير ";
+  }
+}
+
+function all()
+{
+    "use strict";
+    var x = document.getElementById("dollar").value;
+    console.log(x);
+    result = x * 8 ;
+
+}
+
+function all()
+{
+    "use strict" ;
+    var x = document.getementByiD ("mina").value ,
+
+     result = x * 8 ;
+
+      console.log(result);
+  }
+
+ function alll()
+ {
+     "use strict"
+     var x = document.getElementById("doller").value,
+     result = x * 15.71
+    console.log("قيمة الدولار = " +result  + " جنيه مصري")
 
 }
 
@@ -31,63 +83,11 @@ function mina() {
 
 
 
-
-
-
-// function mlll() {
-//   "use strict";
-//   var x = document.getElementById("doller").value,
-//     result = x * 8,
-//     message = document.getElementById("message");
-
-
-//   if (x === "") {
-//     message.innerhtml = " this feild cat";
-//   } else {
-//     message.innerHTML =
-//       "  قيمة " + x + "دولار اليوم = " + result + " جنيه مصري لاغير ";
-//   }
-// }
-
-// function all()
-// {
-//     "use strict";
-//     var x = document.getElementById("dollar").value;
-//     console.log(x);
-//     // result = x * 8 ;
-
-// }
-
-// // function all()
-// // {
-// //     "use strict" ;
-// //     var x = document.getementByiD ("mina").value ,
-
-// //     result = x * 8 ;
-
-// //     console.log(result);
-// // }
-
-// function alll()
-// {
-//     "use strict"
-//     var x = document.getElementById("doller").value,
-//     result = x * 8
-//     console.log("قيمة الدولار = " +result  + " جنيه مصري")
-
-// }
-
-/*
-
-
-
-
-
 // function mina()
 // {
 //     "use strict"
 //     var x = document.getElementById("doller").value,
-//         result = x * 8 ;
+//         result = x * 15.71 ;
 //         document.getElementById("massege").innerHTML = ("قيمة الجنيه المصري اليوم    "  + result + "" + "دولار امريكي"  ) ;
 
 // }
