@@ -1,7 +1,7 @@
 // function mina() {
 //     "use strict"
 //     var price = document.getElementById("doller").value,
-//         result = price * 8,
+//         result = price * 15.71,
 //         message = document.getElementById("message");
 
 //     if (price === "") {
@@ -34,18 +34,18 @@
 
 
 
- function mina() {
-   "use strict";
-   var x = document.getElementById("doller").value,
-     result = x * 15.71,
-     message = document.getElementById("message");
+function mina() {
+  "use strict";
+  var x = document.getElementById("doller").value,
+    result = x * 15.71,
+    message = document.getElementById("message");
 
 
   if (x === "") {
     message.innerhtml = " this feild cat";
   } else {
     message.innerHTML =
-      "  قيمة " + x + "دولار اليوم = " + result + " جنيه مصري لاغير ";
+      "  قيمة " + x + "الجنيه المصري اليوم = " + result + " دولار امريكي فقط لاغير ";
   }
 }
 
@@ -54,7 +54,7 @@ function all()
     "use strict";
     var x = document.getElementById("dollar").value;
     console.log(x);
-    result = x * 8 ;
+ result = x * 15.71 ;
 
 }
 
@@ -63,21 +63,21 @@ function all()
     "use strict" ;
     var x = document.getementByiD ("mina").value ,
 
-     result = x * 8 ;
+    result = x * 8 ;
 
-      console.log(result);
-  }
+    console.log(result);
+}
 
- function alll()
- {
-     "use strict"
-     var x = document.getElementById("doller").value,
-     result = x * 15.71
+function alll()
+{
+    "use strict"
+    var x = document.getElementById("doller").value,
+    result = x * 15.71
     console.log("قيمة الدولار = " +result  + " جنيه مصري")
 
 }
 
-
+/*
 
 
 
@@ -87,7 +87,7 @@ function all()
 // {
 //     "use strict"
 //     var x = document.getElementById("doller").value,
-//         result = x * 15.71 ;
+//         result = x * 8 ;
 //         document.getElementById("massege").innerHTML = ("قيمة الجنيه المصري اليوم    "  + result + "" + "دولار امريكي"  ) ;
 
 // }
